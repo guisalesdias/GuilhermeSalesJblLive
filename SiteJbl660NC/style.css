@@ -1,0 +1,175 @@
+@charset "  UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+
+:root {
+    --font01: 'Jockey One', sans-serif;
+    
+
+}
+
+
+body {
+    
+    background-color: rgb(255, 255, 255);
+}
+
+header nav {
+    color: rgb(106, 108, 109);   
+    font-weight: bolder;   
+    padding-top: 50px;
+    position: absolute;
+    font-family: var(--font01);
+
+}
+
+nav a{ text-decoration: none;
+    color: #686868;
+    padding-left: 5vh; 
+
+    
+}
+
+
+
+nav .logoprincipal{
+    margin-left: 25vh;
+    
+}
+
+nav .menuprincipal{
+
+    display: inline;
+    margin-left: 75vh;
+}
+
+.menuprincipal a:hover {
+    color: #FF3300;
+}
+
+
+
+section #text {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 70px 0px px 0px;
+
+
+}
+
+
+#text h1 {
+
+    font-size: 5vh;
+    font-family: var(--font01);
+    padding-top: 30vh;
+    margin-left: 25vh;
+    color: #FF3300;
+
+}
+
+#text>.nomedoproduto {
+    font-weight: bolder;
+    margin-left: 25vh;
+    margin-top: 1vh;
+    font-family: var(--font01);
+    
+
+}
+
+#text>.textodoproduto {
+    padding-top: 12px;
+    color: rgb(156, 157, 158);
+    font-size: 14px;
+    margin-left: 25vh;
+    font-family: var(--font01);
+
+
+}
+
+button {
+    margin-top: 80px;
+    margin-left: 25vh;
+    padding: 15px 70px;
+    border-radius: 8px;
+    border-color: rgba(255, 255, 255, 0);
+    background-color: #ff3300;
+    color: aliceblue;
+    font-weight: 700;
+    
+}
+
+
+button:hover{
+    background-color: #fc7958;
+    stroke: #000000 solid 4px;
+}
+
+section>#circulo {
+
+    margin: -200px 120vh;
+}
+
+
+section #circulo {
+    width: 70vh;
+    height: 70vh;
+    background-color:#ff330062;
+    border-radius: 100% 0% 0% 100%;
+    
+    
+}
+
+section > .imagemprincipal{
+
+    margin: -300px -330px ;
+    height: 100vh;
+    
+  
+
+
+}
+
+section #partedebaixo{
+    background-color: #ffffff;
+    margin-left: 110vh;
+    margin-top: 25vw;    
+    display: flex;  
+    
+}
+
+
+.imagem02{
+    margin-left: -100vh;
+    margin-right: 30vh;
+    margin-top: 15vh;
+
+
+}   
+
+
+#text02{
+    margin-top: 30vh;
+}
+
+.btn02{
+
+    margin-left: -1px;
+}
+    
+footer{
+    background-color: #FF3300;
+    font-family: var(--font01);
+    padding: 3vh;
+    text-align: center;
+    margin-top: 20vh;
+    color: #ffffff;
+
+
+
+}   
